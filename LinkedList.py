@@ -65,6 +65,9 @@ class LinkedList:
             current = current.next
         return current
 
+    def getSize(self):
+        return self.size
+
     def getList(self):
         str = ''
         current = self.head
